@@ -1,0 +1,27 @@
+{
+  "name": "cli",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Open-sourced budgeting software that doesn't store or track your data. Free to use. Free to extend.",
+  "main": "index.js",
+  "bin": {
+    "budget": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "conf": "^10.1.1",
+    "execa": "^6.0.0",
+    "inquirer": "^8.2.0",
+    "listr": "^0.14.3",
+    "meow": "^10.1.2",
+    "minimist": "^1.2.5",
+    "ora": "^5.4.1",
+    "strip-indent": "^4.0.0"
+  }
+}
